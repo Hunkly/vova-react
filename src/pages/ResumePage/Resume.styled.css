@@ -1,0 +1,64 @@
+.resume-page{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h5{
+    text-align: left;
+    font-weight: 300;
+    max-width: 170px;
+    margin: 0;
+}
+
+.resume-form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    background-color: #9fffcc;
+    margin: 0 auto;
+}
+
+.input-elem{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.input-elem input {
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.input-elem textarea{
+    width: 200px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.input-elem button {
+    font-weight: 400;
+    background-color: #e87c79;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    max-height: 40px;
+    border-radius: 5px;
+    min-width: 120px;
+    max-width: 150px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+}
+
+.input-elem button:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: brown;
+}

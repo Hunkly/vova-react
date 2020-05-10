@@ -1,0 +1,46 @@
+.register-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 200px;
+}
+
+h5{
+    font-weight: 300;
+    margin: 0;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #dcd1ff;
+}
+
+.input-line{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.button-line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+input {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+}
